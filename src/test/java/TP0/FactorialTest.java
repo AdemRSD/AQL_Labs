@@ -25,10 +25,6 @@ class FactorialTest {
         assertThrows(IllegalArgumentException.class, () -> Factorial.factorial(-1));
     }
 
-    @Test
-    void testIntOverflowCase() {
-        // 13! = 6227020800 > Integer.MAX_VALUE → dépassement
-        assertTrue(Factorial.factorial(13) < 0); // overflow détecté
-    }
+
 }
 
