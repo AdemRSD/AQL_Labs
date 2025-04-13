@@ -1,0 +1,5 @@
+Ancienne version incorrecte :
+j++; i--;
+
+Correction appliquée :
+i++; j--;

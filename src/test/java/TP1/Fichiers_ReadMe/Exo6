@@ -1,0 +1,2 @@
+Pas d'erreur , juste
+La condition n <= 1 est trop restrictive : n doit juste être strictement positif, donc n < 1 est suffisant (car 1 est un cas valide → résultat "1").
