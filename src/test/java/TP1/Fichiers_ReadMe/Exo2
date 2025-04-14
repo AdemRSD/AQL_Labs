@@ -1,5 +1,0 @@
-Correction de la classe Anagram :
-Problème identifié :
-Dans la boucle : for (int i = 0; i <= s1.length(); i++)
-Le <= provoque une StringIndexOutOfBoundsException, car les index valides vont de 0 à s1.length() - 1.
-Correction : for (int i = 0; i < s1.length(); i++)

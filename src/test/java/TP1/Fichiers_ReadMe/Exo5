@@ -1,3 +1,0 @@
-Boucle incorrecte : for (int i = 0; i <= symbols.length; i++) → doit être < symbols.length.
-
-Erreur dans while (n > values[i]) → doit être n >= values[i] pour inclure les cas exacts (ex: n == 1000).
